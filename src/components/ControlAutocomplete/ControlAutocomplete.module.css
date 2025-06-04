@@ -1,0 +1,15 @@
+.options-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.options {
+  width: 100%;
+  position: absolute;
+  top: var(--space-base);
+  right: 0;
+  max-height: 300px;
+  overflow: hidden auto;
+  background-color: var(--background);
+  box-shadow: var(--shadow);
+}

@@ -1,0 +1,27 @@
+.option {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  align-items: start;
+  padding: var(--space-base);
+  cursor: pointer;
+}
+
+.title {
+  grid-column: 1;
+  grid-row: 1;
+  color: var(--text);
+}
+
+.subtitle {
+  grid-column: 1;
+  grid-row: 2;
+  color: var(--text-light);
+}
+
+.image {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  width: auto;
+  height: 100%;
+}
