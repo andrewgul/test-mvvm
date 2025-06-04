@@ -33,9 +33,15 @@ function App() {
       <h3 className="title">Контрол с кнопками (цифра)</h3>
       <ControlButtonsNumberView vm={controlButtonsNumberViewModel} />
       <h3 className="title">Контрол-автокомплит (максимум 3)</h3>
-      <ControlAutocompleteView vm={controlAutocompleteViewModel} maxOptionsDisplay={3} />
+      <ControlAutocompleteView
+        vm={controlAutocompleteViewModel}
+        maxOptionsDisplay={3}
+      />
       <h3 className="title">Контрол-автокомплит (максимум 10)</h3>
-      <ControlAutocompleteView vm={controlAutocompleteViewModel2} maxOptionsDisplay={10} />
+      <ControlAutocompleteView
+        vm={controlAutocompleteViewModel2}
+        maxOptionsDisplay={10}
+      />
     </div>
   );
 }

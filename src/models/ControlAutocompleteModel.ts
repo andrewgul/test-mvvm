@@ -8,6 +8,7 @@ import {
 import { CountryInfo, getCountryByName } from '../api/apiService';
 import { IDisposable } from '../interfaces/IDisposable';
 import { debounce } from '../utils/debounce';
+import { filterUniqueByKey } from '../utils/filterUniqueByKey';
 
 type PrivateFields =
   | '_countries'
@@ -63,7 +64,7 @@ export class ControlAutocompleteModel implements IDisposable {
     const response = await getCountryByName(this._inputValue);
 
     runInAction(() => {
-      this._setCountries(response);
+      this._setCountries(filterUniqueByKey(response, 'name'));
       this._isLoading = false;
     });
   }
