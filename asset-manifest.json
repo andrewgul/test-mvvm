@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test-mvvm/static/css/main.01bb2020.css",
+    "main.js": "/test-mvvm/static/js/main.9811e83a.js",
+    "static/js/787.19a379e8.chunk.js": "/test-mvvm/static/js/787.19a379e8.chunk.js",
+    "index.html": "/test-mvvm/index.html",
+    "main.01bb2020.css.map": "/test-mvvm/static/css/main.01bb2020.css.map",
+    "main.9811e83a.js.map": "/test-mvvm/static/js/main.9811e83a.js.map",
+    "787.19a379e8.chunk.js.map": "/test-mvvm/static/js/787.19a379e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01bb2020.css",
+    "static/js/main.9811e83a.js"
+  ]
+}
